@@ -19,6 +19,7 @@ roomCompiler = "2.7.0-alpha06"
 roomKtx = "2.7.0-alpha06"
 kotlinxCoroutinesAndroid = "1.9.0-RC"
 kotlinxCoroutinesCore = "1.9.0-RC"
+books = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -39,6 +40,7 @@ androidx-room-compiler = { group = "androidx.room", name = "room-compiler", vers
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+books = { group = "com.google.android.mediahome", name = "books", version.ref = "books" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
