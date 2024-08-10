@@ -1,14 +1,14 @@
 package com.example.androidassessment.models
 
-data class Data( // Renamed class name to Book for clarity
-    val isbn: String, // Lowercase property names
-    val notes: List<String>,
-    val pages: Int,
-    val publisher: String,
-    val title: String,
-    val year: Int,
-    val createdAt: String,
-    val handle: String,
+data class Data(
     val id: Int,
+    val Year: Int,
+    val Title: String,
+    val handle: String,
+    val Publisher: String,
+    val ISBN: String,
+    val Pages: Int,
+    val Notes: List<String>,
+    val created_at: String,
     val villains: List<Villain>
 )

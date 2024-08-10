@@ -26,10 +26,10 @@ class BookAdapter(private val bookList: List<Data>): RecyclerView.Adapter<BookAd
         val currentItem = bookList[position]
         holder.binding.apply {
             tvId.text = "ID: ${currentItem.id}"
-            tvTitle.text = "Title: ${currentItem.title}"
-            tvPublisher.text = "Publisher: ${currentItem.publisher}"
-            tvYear.text = "Year: ${currentItem.year}" 
-            tvISBN.text = "isbn: ${currentItem.isbn}"
+            tvTitle.text = "Title: ${currentItem.Title}"
+            tvPublisher.text = "Publisher: ${currentItem.Publisher}"
+            tvYear.text = "Year: ${currentItem.Year}"
+            tvISBN.text = "ISBN: ${currentItem.ISBN}"
         }
     }
 }
